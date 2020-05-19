@@ -1,0 +1,53 @@
+1. ANZ is a banking firm . they wanna know what they can do with the data
+2.A merchant account is a type of bank account that allows businesses to accept payments by debit or credit cards. 
+So a merchant account is an agreement between a retailer, 
+a merchant bank and payment processor for the settlement of credit card and/or debit card transactions.
+3.the dataset contains transactions
+
+4.transaction details:
+https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/transaction_details.htm
+
+5.Status
+Authorized: Credit card payments that have been approved by the card holder’s bank to process, 
+but have not yet been sent to the credit card processor through the automated batch. 
+
+Pending: Generally a Pending status requires research. If you receive a Pending transaction,
+ please constant our Customer Care team for assistance.  
+
+Posted: Credit Card and ACH payments that have been entered in the system,
+ and are currently in the funding process, but not yet Settled.
+
+6.Each transaction has the weekday mentioned
+hence count will give a mean value 1.
+so use groupby to get the number to which divide the sum from
+
+7.Average=sum()/unique values
+
+8.Monthly transactios :{'August': 3943, 'September': 4013, 'October': 4087}
+average transaction per month=4014
+the average transaction per day in 3 months is 190.61056774083968
+
+The average age is 30
+The average balance is 14704
+
+
+Questions:
+1. what is merchant account/bank
+ans:
+If I am a merchant i.e I sell stuff for monney
+I can have a merchant account
+so the merchant bank will help me how?
+so the cutomer/consumer can pay me online or through debit or credit card.
+so the merchant bank verifies this information through a secure payment gateway
+and then puts funds into your merchant account
+the pricing and serving fees may vary.
+
+
+
+
+
+PREDICTIVE ANALYSIS
+1.Normalised spending feature . total amount spent / some number .
+cant divide by transactions which would be unfair
+
+2.txn_description gives salary
